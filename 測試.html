@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>360環景-動畫</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />  
+
+	<script src="https://code.jquery.com/jquery-3.7.1.js" type="text/javascript" ></script> 
+<style type="text/css">
+.g-resize {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    resize: both;
+    overflow: scroll;
+}
+.g-resize::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: deeppink;
+}
+</style>
+
+
+</head>
+<body> 
+	
+<!-- HTML -->
+
+<span id="tab-1">主頁</span>
+<span id="tab-2">頁面1</span>
+<span id="tab-3">頁面2</span>
+<span id="tab-4">頁面3</span>
+
+<!-- 頁籤按鈕 -->
+<div id="tab">
+    <ul>
+        <li><a href="#tab-1">主頁</a></li>
+        <li><a href="#tab-2">頁面1</a></li>
+        <li><a href="#tab-3">頁面2</a></li>
+        <li><a href="#tab-4">頁面3</a></li>
+    </ul>
+
+    <!-- 頁籤的內容區塊 -->
+    <div class="tab-content-1">
+        <p>主頁面顯示的內容</p>
+    </div>
+    <div class="tab-content-2">
+      <p>頁面1顯示的內容</p>
+    </div>
+    <div class="tab-content-3">
+      <p>頁面2顯示的內容</p>
+    </div>
+    <div class="tab-content-4">
+      <p>頁面3顯示的內容</p>
+    </div>
+</div>
+    
+    
+    
+    
+</body>
+	
+
+	
+</html>

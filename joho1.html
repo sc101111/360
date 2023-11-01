@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>360環景-動畫</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />  
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet"/>   
+    <link href="360/css/bootstrap.css"  rel="stylesheet" type="text/css">
+	 <script src="360/js/bootstrap.bundle.js" type="text/javascript" ></script> 
+    <link href="360/css/360_animation.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript" ></script> 
+      
+    <link rel="preload" href="../360/images/animation/road.png" as="image"/>  
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_1.webp" as="image"/>  
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_1_m.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_2.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_2_m.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_3.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_3_m.webp" as="image"/>  
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_4.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_4_m.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_5.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_5_m.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_6.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_6_m.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/car_1.webp" as="image"/>  
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/car_3.webp" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/cloud.webp" as="image"/> 
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/helicopter.webp" as="image"/>  
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/hot_air_balloon.webp" as="image"/>
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/diving.png" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/fountain.png" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/lift.png" as="image"/>  
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/star.png" as="image"/>  
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/cars_a.png" as="image"/>    
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/cigarette.png" as="image"/>  
+    <link rel="preload" href="https://w.tw.mawebcenters.com/90823272/images/animation/cigarette.png" as="image"/> 
+      
+      
+      
+    <script type="text/javascript">
+    var preloadLink = document.createElement('link');
+    preloadLink.rel = 'preload';
+    preloadLink.as = 'script';
+    document.head.appendChild(preloadLink);  
+    </script>
+    <!--入場動畫JQ-->	  
+    <script>
+    $(function () {
+        $("#opening_animation_1").show();
+        setTimeout(function () {
+            $("#opening_animation_1").fadeOut("slow").fadeOut(1000);
+        }, 3500);
+    });
+    </script>
+</head>
+<body> 
+<!--開頭動畫-->     
+<div id="opening_animation_1">
+    <div class="opening_animation_2">
+    <div class="opening_animation_3"><img src="https://w.tw.mawebcenters.com/90823272/images/index/JOHO_logo.svg" width="100%" alt=""/></div>
+    <div class="opening_animation_4">
+        <p class="opening_animation_4_t">
+            <apan class="opening_animation_4_a1">前&nbsp;所&nbsp;未&nbsp;有</apan>
+            <apan class="opening_animation_4_t_frame"></apan>
+            <apan class="opening_animation_4_a1">獨&nbsp;一&nbsp;無&nbsp;二</apan>
+        </p>
+        <p class="opening_animation_4_t_2 opening_animation_4_a2">最&nbsp;新&nbsp;沉&nbsp;浸&nbsp;式&nbsp;店&nbsp;商&nbsp;平&nbsp;台</p>
+    </div>
+    </div>     
+</div>  
+    
+<!--開頭動畫尾巴-->    
+<div class="town_bg_0">
+       <div class="town_logo"><img src="https://w.tw.mawebcenters.com/90823272/images/index/JOHO_logo.svg" width="100%" alt=""/></div>
+       <div class="welcome" onclick="location.href='https://w.tw.mawebcenters.com/90823272/home.html'"><h1>WELCOME</h1></div> 
+    <!--手機版輪播--> 
+       <div class="town_container"> 
+       <div class="town_prev">
+                <span class="town_prev_icon" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"></span>
+        </div>
+       <div class="town_container_2">
+          <div class="d-block w-100"> 
+           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="edifice_0_img">
+                      <div class="cigarette_m"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/cigarette.png" width="100%" alt=""/></div> 
+                      <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_1_m.webp" width="100%" alt=""/>
+                    </div>
+                    <div class="edifice_0_round_m">
+                        <h2 class="edifice_0_round_h2">餐飲<br><span class="edifice_0_round_h2_2">Catering</span></h2>
+                        <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="edifice_0_img">
+                      <div class="lift_m"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/lift.png" width="100%" alt=""/></div> 
+                      <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_2_m.webp" width="100%" alt=""/>
+                  </div>
+                    <div class="edifice_0_round_m">
+                        <h2 class="edifice_0_round_h2">工程<br><span class="edifice_0_round_h2_2">Engineering Industry</span></h2>
+                        <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="edifice_0_img">
+                      <div class="cars_a_m"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/cars_a.png" width="100%" alt=""/></div> 
+                      <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_3_m.webp" width="100%" alt=""/>
+                    </div>
+                    <div class="edifice_0_round_m">
+                        <h2 class="edifice_0_round_h2">車業<br><span class="edifice_0_round_h2_2">Automotive Industry</span></h2>
+                        <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="edifice_0_img">
+                      <div class="teeth_m"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/teeth.png" width="100%" alt=""/></div>
+                      <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_4_m.webp" width="100%" alt=""/>
+                    </div>
+                    <div class="edifice_0_round_m">
+                        <h2 class="edifice_0_round_h2">醫療<br><span class="edifice_0_round_h2_2">Medical Industry</span></h2>
+                        <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+                    </div>
+                </div>  
+                <div class="carousel-item">
+                  <div class="edifice_0_img">
+                      <div class="diving_m"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/diving.png" width="100%" alt=""/></div>
+                      <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_5_m.webp" width="100%" alt=""/>
+                  </div>
+                    <div class="edifice_0_round_m">
+                        <h2 class="edifice_0_round_h2">旅宿<br><span class="edifice_0_round_h2_2">Hotel Industry</span></h2>
+                        <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+                    </div>
+                </div>  
+                <div class="carousel-item">
+                  <div class="edifice_0_img">
+                      <div class="star_m"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/star.png" width="100%" alt=""/></div>
+                      <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_6_m.webp" width="100%" alt=""/>
+                  </div>
+                    <div class="edifice_0_round_m">
+                        <h2 class="edifice_0_round_h2">美業<br><span class="edifice_0_round_h2_2">Beaustry</span></h2>
+                        <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+                    </div>
+                </div>
+                  
+              </div>
+               
+            </div>
+         </div>  
+       </div>    
+       <div class="town_next">
+                <span class="town_next_icon" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"></span>
+        </div>
+  </div>
+    <!--手機版輪播尾巴--> 
+    
+    
+       <div id="road">
+            
+           <img src="https://w.tw.mawebcenters.com/90823272/images/animation/road.webp" width="100%" class="road_img_z" alt=""/>
+        <div class="fountain"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/fountain.png" width="100%" alt=""/></div>
+           
+        <div class="edifice_1">
+            <div class="cigarette"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/cigarette.png" width="100%" alt=""/></div> 
+            <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_1.webp" width="100%" alt=""/>
+            <div class="edifice_0_round edifice_1_round">
+                <h2 class="edifice_0_round_h2">餐飲<br><span class="edifice_0_round_h2_2">Catering</span></h2>
+                <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+            </div>
+        </div>
+        <div class="edifice_2">
+            <div class="lift"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/lift.png" width="100%" alt=""/></div> 
+            <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_2.webp" width="100%" alt=""/>
+            <div class="edifice_0_round edifice_2_round">
+                <h2 class="edifice_0_round_h2">工程<br><span class="edifice_0_round_h2_2">Engineering Industry</span></h2>
+                <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+            </div>
+        </div>
+          
+          
+        <div class="edifice_3">
+            <div class="cars_a"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/cars_a.png" width="100%" alt=""/></div> 
+            <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_3.webp" width="100%" alt=""/>
+            <div class="edifice_0_round edifice_3_round">
+                <h2 class="edifice_0_round_h2">車業<br><span class="edifice_0_round_h2_2">Automotive Industry</span></h2>
+                <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+            </div>
+        </div>
+           
+        <div class="edifice_4">
+            <div class="teeth"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/teeth.png" width="100%" alt=""/></div>
+            <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_4.webp" width="100%" alt=""/>
+            <div class="edifice_0_round edifice_4_round">
+                <h2 class="edifice_0_round_h2">醫療<br><span class="edifice_0_round_h2_2">Medical Industry</span></h2>
+                <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+            </div>
+        </div>
+           
+        <div class="edifice_5">
+            <div class="diving"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/diving.png" width="100%" alt=""/></div>  
+            <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_5.webp" width="100%" alt=""/>
+            <div class="edifice_0_round edifice_5_round">
+                <h2 class="edifice_0_round_h2">旅宿<br><span class="edifice_0_round_h2_2">Hotel Industry</span></h2>
+                <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+            </div>
+        </div> 
+         
+           
+        <div class="edifice_6">
+            <div class="star"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/star.png" width="100%" alt=""/></div>
+            <img src="https://w.tw.mawebcenters.com/90823272/images/animation/edifice_6.webp" width="100%" alt=""/>
+            <div class="edifice_0_round edifice_6_round">
+                <h2 class="edifice_0_round_h2">美業<br><span class="edifice_0_round_h2_2">Beaustry</span></h2>
+                <p class="edifice_0_round_text">店家內容店家內容店家內容店家內容店家內容店家內容店家內容</p>
+            </div>
+        </div>
+          
+           
+        <div class="car_1"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/car_1.webp" width="100%" alt=""/></div>
+        <div class="car_2"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/car_1.webp" width="100%" alt=""/></div>   
+        <div class="car_3"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/car_3.webp" width="100%" alt=""/></div>     
+          
+        <div class="hot_air_balloon"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/hot_air_balloon.webp" width="100%" alt=""/></div> 
+           
+        <div class="cloud_1"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/cloud.webp" width="100%" alt=""/></div>   
+        <div class="cloud_2"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/cloud.webp" width="100%" alt=""/></div>   
+        
+        <div class="helicopter"><img src="https://w.tw.mawebcenters.com/90823272/images/animation/helicopter.webp" width="100%" alt=""/></div>    
+           
+        <!--電腦版黃色背景-->   
+        <div class="hide_category_1"></div>
+        <!--電腦版黃色背景尾巴--> 
+           
+           
+        <!--手機版黃色背景-->
+        <div class="hide_category_2"></div> 
+        <!--手機版黃色背景尾巴-->           
+           
+       </div>
+       
+       
+       
+</div>
+    
+    
+    
+    
+</body>
+	
+
+	
+</html>
